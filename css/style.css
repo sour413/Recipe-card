@@ -8,6 +8,7 @@ body {
     background-color: #f3e5d8 !important;
     display: grid;
     place-items: center;
+    height: 100vh;
 }
 
 .card-recipe {
