@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3e5d8 !important;
+    display: grid;
+    place-items: center;
+}
+
+.card-recipe {
+    width:40rem;
+}
+
+.rec-heading {
+    font-size: 5rem;
+}
+
+.rec-para {
+    font-size: 1.6rem;
+}
+
+.rec-box {
+    background-color: #fff7fc;
+}
+
+.rec-prep-time {
+    font-size: 3.5rem;
+    margin-left: 0.8rem;
+    margin-top: 0.8rem;
+    color: #966179;
+}
+
+.rec-ingre {
+    color: #975726;
+    font-size: 3.5rem;
+}
+
+.ing-items {
+    color: #a78b89;
+    font-size: 1.5rem;
+    margin-left: 0.9rem;
+    line-height: 2em;
+}
+
+.rec-inst {
+    color: #975726;
+    font-size: 3.5rem;
+}
+
+.inst-items {
+    color: #a78b89;
+    font-size:1.5rem;
+    margin-left: 0.8rem;
+    line-height: 3.5rem;
+}
+
+.prep-items {
+    color: #5b5255;
+    font-size: 1.3rem;
+    line-height: 2.8rem;
+}
+
+.rec-nutr {
+    color: #975726;
+    font-size: 3rem;
+}
+
+.nutr-item1 {
+    text-align: center;
+}
+
+.nutr-item2 {
+    text-align: center;
+    color: #975726;
+}
+
+@media (min-width: 576px) { 
+    body {
+        background-color: #f3e5d8 !important;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+    }
+
+    .rec-heading {
+        font-size: 2rem;
+    }
+    .card-recipe {
+        width:37rem;
+        border-radius: 1rem !important;
+    }
+
+    .rec-image {
+        width: 32.8rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top:1rem;
+        border-radius: 0.5rem;
+    }
+
+    .rec-box {
+        background-color:#fff7fc;
+        width: 38rem;
+        border-radius: 0.5rem;
+    }
+
+    .rec-para {
+        font-size: 0.7rem;
+    }
+
+    .rec-prep-time {
+        font-size: 1rem;
+        margin-left: 0.8rem;
+        margin-top: 0.8rem;
+        color: #854864;
+    }
+
+    .prep-items {
+        color: #5b5255;
+        font-size: 0.7rem;
+        line-height: 1.7rem;
+    }
+
+    .rec-ingre {
+        color: #975726;
+        font-size: 1.5rem;
+    }
+
+    .ing-items {
+        color: #a0857c;
+        margin-left:1.5rem;
+        font-size:0.8rem;
+        line-height: 2rem;
+    }
+
+    li::marker {
+        color: #a0857c;
+    }
+
+    .rec-inst {
+        color: #975726;
+        font-size: 1.5rem;
+    }
+
+    .inst-items {
+        color: #a78b89;
+        text-align: justify;
+        font-size: 60%;
+        line-height: 1.6em;
+    }
+
+    .rec-nutr {
+        color: #975726;
+        font-size: 1.6rem;
+    }
+
+    .nutr-text {
+        color:#a8a8a8;
+        font-size: 0.9rem;
+    }
+}
